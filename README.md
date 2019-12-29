@@ -37,6 +37,8 @@ docker-compose down -v
 ?>
 ```
 
+### XDebug
+For a better integration of Docker to PHPStorm, use the [documentation](https://github.com/nanoninja/docker-nginx-php-mysql/blob/master/doc/phpstorm-macosx.md).
 ___
 
 ## Other commands
