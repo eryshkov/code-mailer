@@ -14,6 +14,15 @@ docker-compose exec php php ./bin/console doctrine:migrations:migrate
 docker-compose exec php php ./bin/console doctrine:fixtures:load
 ```
 
+### Run
+```
+docker-compose up -d
+```
+
+### Stop
+```
+docker-compose down -v
+```
 
 ### Connecting MySQL from [PDO](http://php.net/manual/en/book.pdo.php)
 
