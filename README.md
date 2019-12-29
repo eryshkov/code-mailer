@@ -2,12 +2,12 @@ Mailer project on base [Nano Ninja Docker Boilerplate](https://github.com/nanoni
 
 ## Use Docker commands
 
-###Composer install
+### Composer install
 ```
 docker run --rm -v $(pwd)/web:/app composer install
 ```
 
-###Create the database & tables
+### Create the database & tables
 ```
 docker-compose exec php php ./bin/console doctrine:database:create
 docker-compose exec php php ./bin/console doctrine:migrations:migrate
@@ -30,6 +30,6 @@ docker-compose exec php php ./bin/console doctrine:fixtures:load
 
 ___
 
-## Help us
+## Other commands
 
 All other commands and features at [Nano Ninja github](https://github.com/nanoninja/docker-nginx-php-mysql)
